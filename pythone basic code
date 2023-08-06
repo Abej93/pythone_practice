@@ -7,3 +7,36 @@ print("package updating___________")
 dev=["sona", "mona", "Ami"]
 
 print (str1(dev))
+
+
+
+
+# if_else 
+
+#!/usr/bin/python3
+
+num1=float(input("Enter the the number  "))
+choice=input("Enter your operators:: +,/,-,*  ")
+
+num2=float(input("enter 2nd number "))
+
+if choice == "+":
+    sum= num1+num2
+    print("the sum is::",sum)
+
+elif choice == "-":
+    diff= num1-num2
+    print("the diff is::",diff)
+
+elif choice == "/":
+    div= num1/num2
+    print("the division is::",div)
+
+elif choice =="*":
+    multiplication=num1*num2
+    print("the multi is::",multiplication)
+
+else:
+    printf("invalid choice")
+
+
