@@ -1,0 +1,6 @@
+#!/usr/bun/python3
+
+data1=["aws","gcp","azure","alibaba"]
+
+for i in range[10]:
+    print(i)
